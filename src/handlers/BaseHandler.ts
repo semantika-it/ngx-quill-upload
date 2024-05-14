@@ -42,6 +42,9 @@ class BaseHandler {
         if (this.handler === Constants.blots.video) {
           this.options.accepts = ['mp4', 'webm'];
         }
+        if (this.handler === Constants.blots.attachment) {
+          this.options.accepts = ['pdf'];
+        }
       }
 
       if (this.handler === Constants.blots.image) {
@@ -49,6 +52,9 @@ class BaseHandler {
       }
       if (this.handler === Constants.blots.video) {
         this.possibleExtension = new Set(['mp4', 'webm', '3gp', 'mp4', 'mpeg', 'quickTime', 'ogg']);
+      }
+      if (this.handler === Constants.blots.attachment) {
+        this.possibleExtension = new Set(['pdf']);
       }
 
       this.allowedFormatRegex = new RegExp('^(' + this.options.accepts.filter((el) => this.possibleExtension.has(el.toLowerCase()))

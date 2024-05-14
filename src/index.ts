@@ -1,2 +1,2 @@
-export { ImageHandler, VideoHandler, Options } from './handlers';
-export { ImageBlot, VideoBlot } from './blots';
+export { ImageHandler, VideoHandler, AttachmentHandler, Options } from './handlers';
+export { ImageBlot, VideoBlot, AttachmentBlot } from './blots';

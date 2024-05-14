@@ -37,6 +37,7 @@ export default {
   blots: {
     video: 'video',
     image: 'image',
+    attachment: 'attachment',
   },
   LOADING_CLASS_NAME: 'quill-progress-wrapper',
   NONE_DISPLAY_CLASS_NAME: 'd-none',

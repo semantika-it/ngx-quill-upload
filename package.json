@@ -1,13 +1,13 @@
 {
   "name": "ngx-quill-upload",
   "version": "2.0.0",
-  "description": "A module for images and videos to be uploaded to a server instead of being base64 encoded, in ngx-quill from toolbar editor.",
+  "description": "A module for images, videos and pdfs  to be uploaded to a server instead of being base64 encoded, in ngx-quill from toolbar editor.",
   "scripts": {
     "build": "ng-packagr -p package.json"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ayush013/ngx-quill-upload.git"
+    "url": "git+https://github.com/semantika-it/ngx-quill-upload.git"
   },
   "ngPackage": {
     "$schema": "./node_modules/ng-packagr/package.schema.json",
@@ -23,14 +23,15 @@
     "quill",
     "ngx-quill",
     "imageHandler",
-    "videoHandler"
+    "videoHandler",
+    "attachmentHandler"
   ],
-  "author": "Ayush Singh <ayush.singh.xda@gmail.com>",
+  "author": "Zeno Mioso <zeno@semantika.it>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ayush013/ngx-quill-upload/issues"
+    "url": "https://github.com/semantika-it/ngx-quill-upload/issues"
   },
-  "homepage": "https://github.com/ayush013/ngx-quill-upload#readme",
+  "homepage": "https://github.com/semantika-it/ngx-quill-upload#readme",
   "devDependencies": {
     "@angular/cli": "10.2.1",
     "@angular/common": "10.0.11",
